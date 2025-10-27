@@ -10,3 +10,32 @@ html {
     rgba(130, 132, 168, 1) 100%
   );
 }
+
+.fretboard-container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.master {
+  justify-content: center;
+  height: 100vh;
+}
+
+.controls {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.bpm-controls {
+  display: flex;
+}
+
+.bpm-controls p {
+  margin: 4px;
+}
+
+.bpm-controls button {
+  margin-left: auto;
+  margin-right: auto;
+}
